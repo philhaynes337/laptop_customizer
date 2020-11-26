@@ -7,18 +7,10 @@ import FEATURES from './files/Features';
 
 
 
-
 ReactDOM.render(
-	
   <React.Fragment>
     <Header title='ELF Computing | Laptops' />
-    
     <App features={FEATURES} />
-     
-      
   </React.Fragment>,
    document.getElementById('root')
-
-
-
   );
